@@ -1,6 +1,6 @@
 # Order System
 
-这是一个基于 Go 语言开发的订单系统，采用清晰的目录结构和模块化设计。
+使用 Cursor Agent Mode 测试单元测试生成项目
 
 ## 项目结构
 
@@ -47,7 +47,7 @@ go run cmd/server/main.go
 运行所有测试：
 
 ```bash
-go test ./...
+go test -v -cover ./...
 ```
 
 ## 项目特点
@@ -56,6 +56,3 @@ go test ./...
 - 完整的单元测试支持
 - 模块化设计，便于扩展和维护
 
-## 许可证
-
-[添加许可证信息]
